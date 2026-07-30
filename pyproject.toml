@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "envexport-cli"
+version = "1.0.0"
+description = "Turn a .env file into shell export lines, docker -e flags, or a flat JSON object, with no dependencies."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "All Rights Reserved" }
+authors = [{ name = "sidcore-dev" }]
+keywords = ["env", "dotenv", "cli", "devtools"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: Other/Proprietary License",
+    "Environment :: Console",
+    "Topic :: Utilities",
+]
+
+[project.scripts]
+envexport-cli = "envexport_cli.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
