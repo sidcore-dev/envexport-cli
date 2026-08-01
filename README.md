@@ -3,6 +3,8 @@
 A small, dependency-free command-line tool that turns a `.env`-style file
 into shell `export` lines, `docker run` flags, or a flat JSON object.
 
+![demo](demo.gif)
+
 ## Why
 
 Loading a `.env` file into your current shell, or forwarding it to a
