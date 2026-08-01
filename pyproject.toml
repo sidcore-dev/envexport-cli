@@ -18,6 +18,11 @@ classifiers = [
     "Topic :: Utilities",
 ]
 
+[project.urls]
+Homepage = "https://github.com/sidcore-dev/envexport-cli"
+Repository = "https://github.com/sidcore-dev/envexport-cli"
+Issues = "https://github.com/sidcore-dev/envexport-cli/issues"
+
 [project.scripts]
 envexport-cli = "envexport_cli.cli:main"
 
